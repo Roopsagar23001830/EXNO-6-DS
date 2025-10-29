@@ -47,8 +47,8 @@ sns.lineplot(x=x,y=y2)
 sns.lineplot(x=x,y=y3)
 plt.title('Multi Line Plot')
 ```
-<img width="961" height="575" alt="2" src="https://github.com/user-attachments/assets/e4ceb0fd-8c2b-438c-a2fa-c59f56574d25" />
 
+<img width="1026" height="580" alt="3" src="https://github.com/user-attachments/assets/e0e195ff-351c-44b3-a0d6-4711dfa84c52" />
 
 ## TO VISUALIZE RELATIONSHIPS
 ### 1.Bar Chart
@@ -57,7 +57,8 @@ plt.figure(figsize=(8,5))
 sns.barplot(x='Embarked',y='Fare',data=df,palette='rainbow')
 plt.title("Fare Of Passenger By Embarked Town")
 ```
-<img width="1026" height="580" alt="3" src="https://github.com/user-attachments/assets/3e45fafc-cef0-40b9-9f1c-1e795bc2a421" />
+<img width="1227" height="596" alt="4" src="https://github.com/user-attachments/assets/c545220d-c430-4579-95a5-1a13675d6f31" />
+
 
 
 ### 2.Scatter Plot
@@ -66,7 +67,7 @@ sns.scatterplot(x="Age", y="Fare", data=df)
 plt.title('Scatterplot of Age vs Fare')
 plt.show()
 ```
-<img width="1227" height="596" alt="4" src="https://github.com/user-attachments/assets/94383dac-21a3-46ba-82e1-28d289c39ffa" />
+<img width="1084" height="569" alt="5" src="https://github.com/user-attachments/assets/2a5ec018-327f-401a-a3d4-62d23d801fa3" />
 
 
 ### 3.Bubble Chart
@@ -75,7 +76,7 @@ sns.scatterplot(x="Age", y="Fare", size="Pclass", data=df, sizes=(30, 200))
 plt.title('Bubble Chart of Age vs Fare, Size by Passenger Class')
 plt.show()
 ```
-<img width="1084" height="569" alt="5" src="https://github.com/user-attachments/assets/4bce27e2-dfba-4dee-a1b8-c08f790695e0" />
+<img width="1059" height="581" alt="6" src="https://github.com/user-attachments/assets/d588293c-666c-4a34-abbc-4cb02f1f68aa" />
 
 
 ## TO CAPTURE DISTRIBUTIONS
@@ -83,14 +84,14 @@ plt.show()
 ```py
 sns.histplot(data=df,x="Pclass",hue="Survived",kde=True)
 ```
-<img width="1059" height="581" alt="6" src="https://github.com/user-attachments/assets/fad09db0-d910-4ab7-840d-973f98579342" />
+<img width="1002" height="567" alt="7" src="https://github.com/user-attachments/assets/de47d157-bee5-4a90-a1ad-957a87948376" />
 
 ### 2.Box Plot
 ```py
 sns.boxplot(x='Pclass',y='Age',data=df,palette='rainbow')
 plt.title("Age By Passenger Class")
 ```
-<img width="1002" height="567" alt="7" src="https://github.com/user-attachments/assets/e192d027-6da8-4afd-ab6b-adc26b02b09d" />
+<img width="1002" height="567" alt="8" src="https://github.com/user-attachments/assets/e192d027-6da8-4afd-ab6b-adc26b02b09d" />
 
 
 ### 3.Violin Plot
@@ -99,7 +100,7 @@ sns.violinplot(x="Pclass", y="Fare", data=df)
 plt.title('Violin Plot of Fare by Passenger Class')
 plt.show()
 ```
-<img width="968" height="566" alt="8" src="https://github.com/user-attachments/assets/badc0541-4ee9-4730-bddd-82ec0ab804fa" />
+<img width="968" height="566" alt="9" src="https://github.com/user-attachments/assets/badc0541-4ee9-4730-bddd-82ec0ab804fa" />
 
 
 ### 4.Density Plot
@@ -108,7 +109,7 @@ sns.kdeplot(data=df['Age'], shade=True)
 plt.title('Density Plot of Passenger Ages')
 plt.show()
 ```
-<img width="1152" height="571" alt="9" src="https://github.com/user-attachments/assets/92dc69cf-4090-4d8c-84ab-42333204c2ce" />
+<img width="1152" height="571" alt="10" src="https://github.com/user-attachments/assets/92dc69cf-4090-4d8c-84ab-42333204c2ce" />
 
 ### 5.Heatmap
 ```py
