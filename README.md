@@ -91,7 +91,7 @@ sns.histplot(data=df,x="Pclass",hue="Survived",kde=True)
 sns.boxplot(x='Pclass',y='Age',data=df,palette='rainbow')
 plt.title("Age By Passenger Class")
 ```
-<img width="1002" height="567" alt="8" src="https://github.com/user-attachments/assets/e192d027-6da8-4afd-ab6b-adc26b02b09d" />
+<img width="968" height="566" alt="8" src="https://github.com/user-attachments/assets/5f66136b-e250-4245-9e60-32e713140a27" />
 
 
 ### 3.Violin Plot
@@ -100,7 +100,8 @@ sns.violinplot(x="Pclass", y="Fare", data=df)
 plt.title('Violin Plot of Fare by Passenger Class')
 plt.show()
 ```
-<img width="968" height="566" alt="9" src="https://github.com/user-attachments/assets/badc0541-4ee9-4730-bddd-82ec0ab804fa" />
+<img width="1152" height="571" alt="9" src="https://github.com/user-attachments/assets/25ba505a-a815-4d3d-9b44-4329da4c26ee" />
+
 
 
 ### 4.Density Plot
@@ -109,9 +110,10 @@ sns.kdeplot(data=df['Age'], shade=True)
 plt.title('Density Plot of Passenger Ages')
 plt.show()
 ```
-<img width="1152" height="571" alt="10" src="https://github.com/user-attachments/assets/92dc69cf-4090-4d8c-84ab-42333204c2ce" />
+<img width="1118" height="559" alt="10" src="https://github.com/user-attachments/assets/7fe12e91-12d8-4787-8f72-35f2bd928525" />
 
 ### 5.Heatmap
+
 ```py
 numeric_df = df.select_dtypes(include=['float64', 'int64'])
 corr_matrix = numeric_df.corr()
