@@ -25,8 +25,7 @@ import matplotlib.pyplot as plt
 df=pd.read_csv("titanic_dataset.csv")
 df.head()
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/c111b446-500b-4b06-b284-572eb6a6d182"> 
-
+<img width="1609" height="262" alt="1" src="https://github.com/user-attachments/assets/135e9271-cd79-43be-a51f-620d13b5614f" />
 
 ### 1.Line Plot
 ```py
@@ -48,7 +47,7 @@ sns.lineplot(x=x,y=y2)
 sns.lineplot(x=x,y=y3)
 plt.title('Multi Line Plot')
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/6b052b9d-b734-4079-a94d-f9c0f46039d6" width="300" height="300"> 
+<img width="961" height="575" alt="2" src="https://github.com/user-attachments/assets/e4ceb0fd-8c2b-438c-a2fa-c59f56574d25" />
 
 
 ## TO VISUALIZE RELATIONSHIPS
@@ -58,7 +57,8 @@ plt.figure(figsize=(8,5))
 sns.barplot(x='Embarked',y='Fare',data=df,palette='rainbow')
 plt.title("Fare Of Passenger By Embarked Town")
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/bcc83b1f-3e33-4793-ac34-686308202586" width="300" height="300"> 
+<img width="1026" height="580" alt="3" src="https://github.com/user-attachments/assets/3e45fafc-cef0-40b9-9f1c-1e795bc2a421" />
+
 
 ### 2.Scatter Plot
 ```py
@@ -66,7 +66,8 @@ sns.scatterplot(x="Age", y="Fare", data=df)
 plt.title('Scatterplot of Age vs Fare')
 plt.show()
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/f88c86d0-a615-4347-a4ab-9726858d2b85" width="300" height="300"> 
+<img width="1227" height="596" alt="4" src="https://github.com/user-attachments/assets/94383dac-21a3-46ba-82e1-28d289c39ffa" />
+
 
 ### 3.Bubble Chart
 ```py
@@ -74,21 +75,23 @@ sns.scatterplot(x="Age", y="Fare", size="Pclass", data=df, sizes=(30, 200))
 plt.title('Bubble Chart of Age vs Fare, Size by Passenger Class')
 plt.show()
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/a981076a-4aec-4dd5-8793-5c37af9b3d8b" width="300" height="300"> 
+<img width="1084" height="569" alt="5" src="https://github.com/user-attachments/assets/4bce27e2-dfba-4dee-a1b8-c08f790695e0" />
+
 
 ## TO CAPTURE DISTRIBUTIONS
 ### 1.Histogram
 ```py
 sns.histplot(data=df,x="Pclass",hue="Survived",kde=True)
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/8f3d6fba-04a6-414e-aeed-4136c6a3d2ee" width="300" height="300"> 
+<img width="1059" height="581" alt="6" src="https://github.com/user-attachments/assets/fad09db0-d910-4ab7-840d-973f98579342" />
 
 ### 2.Box Plot
 ```py
 sns.boxplot(x='Pclass',y='Age',data=df,palette='rainbow')
 plt.title("Age By Passenger Class")
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/0256c67c-dcc1-4099-8220-572400671d34" width="300" height="300"> 
+<img width="1002" height="567" alt="7" src="https://github.com/user-attachments/assets/e192d027-6da8-4afd-ab6b-adc26b02b09d" />
+
 
 ### 3.Violin Plot
 ```py
@@ -96,7 +99,8 @@ sns.violinplot(x="Pclass", y="Fare", data=df)
 plt.title('Violin Plot of Fare by Passenger Class')
 plt.show()
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/822c14ba-e4a5-4705-8097-ec0b3b93c880" width="300" height="300"> 
+<img width="968" height="566" alt="8" src="https://github.com/user-attachments/assets/badc0541-4ee9-4730-bddd-82ec0ab804fa" />
+
 
 ### 4.Density Plot
 ```py
@@ -104,7 +108,7 @@ sns.kdeplot(data=df['Age'], shade=True)
 plt.title('Density Plot of Passenger Ages')
 plt.show()
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/701e4bca-dc51-4963-82d6-4f3b6541d905" width="300" height="300"> 
+<img width="1152" height="571" alt="9" src="https://github.com/user-attachments/assets/92dc69cf-4090-4d8c-84ab-42333204c2ce" />
 
 ### 5.Heatmap
 ```py
@@ -114,7 +118,8 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
 plt.title('Heatmap of Titanic Dataset')
 plt.show()
 ```
-<img src="https://github.com/PriyankaAnnadurai/EXNO-6-DS/assets/118351569/82f41352-a05b-482c-9328-5da56e384c85" width="300" height="300"> 
+<img width="1002" height="602" alt="11" src="https://github.com/user-attachments/assets/cb3b26cc-ab2a-49cb-b07e-669e28827015" />
+
 
 
 ## Result:
